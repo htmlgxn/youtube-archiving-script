@@ -1,0 +1,13 @@
+# Set default download directory in run.sh
+
+# <DIRECTORY> = Define a path extending from default directory after URL/playlist ID (Optional)
+    # Allows for easy orginization
+    # Format is path/to/dir. Script will not work otherwise
+
+# <URL/ID> = One video or playlist URL or ID
+    # eg. https://youtube.com/watch?v=xvFZjo5PgG0
+    # eg. xvFZjo5PgG0
+
+# Delete placeholder below and enjoy!
+
+<URL/ID> <DIRECTORY>
