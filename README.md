@@ -1,5 +1,5 @@
 # youtube-archiving-script
-Bash script for archving youtube playlists/channels.
+Bash script for archiving youtube playlists/channels.
 - [Installation](https://github.com/htmlgxn/youtube-archiving-script#installation)
 - [Getting Started](https://github.com/htmlgxn/youtube-archiving-script#getting-started)
 - [Usage](https://github.com/htmlgxn/youtube-archiving-script#usage)
