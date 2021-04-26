@@ -1,5 +1,5 @@
 # youtube-archiving-script
-Bash script for archiving youtube playlists/channels.
+Simple [bash](https://gnu.org/software/bash) script for archiving youtube playlists/channels.
 - [Installation](https://github.com/htmlgxn/youtube-archiving-script#installation)
 - [Getting Started](https://github.com/htmlgxn/youtube-archiving-script#getting-started)
 - [Usage](https://github.com/htmlgxn/youtube-archiving-script#usage)
@@ -14,7 +14,7 @@ eg. (Arch + yay):
 $ yay -S youtube-dl
 ```
 
-Clone the github repo to your desired directory
+Clone the github repo to your desired directory.
 ```console
 $ cd path/to/dir
 $ git clone https://github.com/htmlgxn/youtube-archiving-script.git
