@@ -12,7 +12,7 @@ download_list () {
     local PATH_FILE="${STORAGE_PATH}/"
     local PATH_ARCHIVE="${STORAGE_PATH}/"
 
-    if [[ -n "${2}"]]; then
+    if [[ -n "${2}" ]]; then
         [ ! -d "${STORAGE_PATH}/${2}" ] && mkdir "${STORAGE_PATH}/${2}"
 
         PATH_FILE+="${2}"
