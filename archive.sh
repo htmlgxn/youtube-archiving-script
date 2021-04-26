@@ -5,6 +5,8 @@
 
 STORAGE_PATH="path/to/default/directory"
 
+[ ! -d "${STORAGE_PATH}" ] && mkdir "${STORAGE_PATH}"
+
 download_list () {
     local LIST_ID="${1}"
     local PATH_FILE="${STORAGE_PATH}/"
