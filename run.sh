@@ -28,7 +28,7 @@ download_list () {
 while :
 do
     while read DATA; do
-        if [[ -n "${DATA}" || "${DATA}" != *"#"* ]]; then
+        if [[ -n "${DATA}" && "${DATA}" != *"#"* ]]; then
             DATA_ARRAY=($DATA)
             download_list "${DATA_ARRAY[0]}" "${DATA_ARRAY[1]}"
         fi
